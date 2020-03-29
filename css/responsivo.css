@@ -18,6 +18,10 @@
         width: 26px;
         height: 26px;
     }
+
+    .footer, .copy {
+        padding: 20px 5px;
+    }
 }
 
 /* Estilo para smartphone */
@@ -84,5 +88,9 @@
 
     .footer h3::after {
         margin: 6px auto 12px auto;
+    }
+
+    .copy {
+        text-align: center;
     }
 }
