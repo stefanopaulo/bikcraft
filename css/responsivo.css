@@ -72,4 +72,17 @@
     .qualidade::after {
         display: none;
     }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+    }
+
+    .footer_historia {
+        padding-right: 0;
+    }
+
+    .footer h3::after {
+        margin: 6px auto 12px auto;
+    }
 }
