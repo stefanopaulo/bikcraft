@@ -94,3 +94,10 @@ $('.formphp').on('submit', function() {
 	
 	return false;
 });
+
+// Código para alterar o ano do rodapé automaticamente
+
+const year = document.querySelector('.year')
+const dateY = new Date()
+
+year.innerHTML = dateY.getFullYear()
